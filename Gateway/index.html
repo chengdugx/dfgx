@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="render" content="webkit" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="description" content="数据网关" />
+	<title>数据网关</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/echarts.common.min.js"></script>
+</head>
+<body>
+	<div class="myTopbar">
+		<div class="logo">
+		<img src="images/logo.png"><span>数据网关</span>
+		</div>
+		<div class="myBtns">
+			<div class="myBtn">
+				<img src="images/fullscreen.png" />
+				<a href="#">&nbsp;&nbsp;&nbsp;开启全屏</a>
+			</div>
+			<div class="myBtn">
+				<img src="images/role.png" />
+				<a href="#">管理员</a>
+			</div>
+		</div>
+	</div>
+	<div class="mySidebar">
+		<ul class="myNav">
+			<li class="home">
+				<a href="#">
+					<img src="images/home1.png" alt="首页">
+					<div>首页</div>
+				</a>
+			</li>
+			<li class="gateway">
+				<a href="#">
+					<img src="images/gateway0.png" alt="数据网关">
+					<div>数据网关</div>
+				</a>
+			</li>
+			<li class="interface">
+				<a href="#">
+					<img src="images/interface0.png" alt="接口服务">
+					<div>接口服务</div>
+				</a>
+			</li>
+			<li class="balance">
+				<a href="#">
+					<img src="images/balance0.png" alt="服务结算">
+					<div>服务结算</div>
+				</a>
+			</li>
+			<li class="app">
+				<a href="#">
+					<img src="images/app0.png" alt="应用管理">
+					<div>应用管理</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="myTitle">>> 首页</div>
+		<div class="echart1"></div><div class="echart2"></div><div class="echart3"></div>	<!--前三个echart不要缩进，避免固有间隔-->
+		<div class="echart4"></div>
+		<div class="myTables">
+			<table class="myTable-1">
+				<div>
+					<span>日TOP5接口调用情况</span>
+					<a class="more" href="#">更多></a>
+				</div>
+				<thead>
+					<tr>
+						<th>排序</th>
+						<th>接口名称</th>
+						<th>成功次数</th>
+						<th>失败次数</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>ARPU查询接口</td>
+						<td>210953</td>
+						<td>21</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>呼转状态接口</td>
+						<td>129453</td>
+						<td>18</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>短信状态接口</td>
+						<td>9732</td>
+						<td>42</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>换卡状态接口</td>
+						<td>7539</td>
+						<td>7</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>欠费状态接口</td>
+						<td>4382</td>
+						<td>42</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="myTable-2">
+				<div>
+					<span>月TOP5接口调用情况</span>
+					<a class="more" href="#">更多></a>
+				</div>
+				<thead>
+					<tr>
+						<th>排序</th>
+						<th>接口名称</th>
+						<th>成功次数</th>
+						<th>失败次数</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>ARPU查询接口</td>
+						<td>3002805</td>
+						<td>105</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>换卡状态接口</td>
+						<td>103487</td>
+						<td>131</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>呼转状态接口</td>
+						<td>64823</td>
+						<td>232</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>欠费状态接口</td>
+						<td>64722</td>
+						<td>62</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>短信状态接口</td>
+						<td>40921</td>
+						<td>52</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

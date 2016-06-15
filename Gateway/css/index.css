@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 10px;
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+/*--------------top bar----------*/
+.myTopbar{
+	position: relative;
+	width: 100%;
+	background-color: #0389d2;
+	text-align: right;
+}
+.myTopbar .logo{
+	float: left;
+	display: inline-block;
+}
+.myTopbar .logo img{
+	width: 35px;
+	height: 35px;
+	left: 2em;
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+}
+.myTopbar .logo span{
+	line-height: 2.5em;
+	margin-left: 3em;
+	font-size: 2.4em;
+	color: #fff;
+}
+.myTopbar .myBtns{
+	display: inline-block;
+	height: 5em;
+	line-height: 5em;
+}
+.myTopbar .myBtns .myBtn{
+	display: inline-block;
+	width: 9em;
+}
+.myTopbar .myBtns img{
+	width: 1.5em;
+	margin-right: -1.5em;
+}
+.myTopbar .myBtns a{
+	display: inline-block;
+	width: 6em;
+	font-size: 1.5em;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+/*--------------sidebar--------------*/
+.mySidebar{
+	font-size: 1.4em;
+	background-color: #5daee5;
+}
+.mySidebar ul{
+	width: 100%;
+	list-style-type: none;
+}
+.mySidebar ul li{
+	display: block;
+	margin: 0 auto;
+	padding: 1em 0;
+	text-align: center;
+	background-color: #5daee5;
+	border-bottom: 1px solid #358bc5;
+}
+.mySidebar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.mySidebar ul .home{
+	background-color: #fff;
+}
+.mySidebar ul .home a{
+	color: #358bc5;
+}
+/*------------content echart----------*/
+.content .myTitle{
+	height: 2em;
+	line-height: 2em;
+	font-size: 1.6em;
+	color: #0389d2;
+	text-indent: 2em;
+	background-color: #eaf5e5;
+}
+.content .echart1{
+	display: inline-block;
+	width: 33%;
+	height: 250px;
+}
+.content .echart2{
+	display: inline-block;
+	width: 33%;
+	height: 250px;
+}
+.content .echart3{
+	display: inline-block;
+	width: 33%;
+	height: 250px;
+}
+.content .echart4{
+	width: 90%;
+	height: 250px;
+	margin: 1em auto 0 auto;
+}
+/*--------------content table----------------*/
+.myTables table{
+	display: inline-block;
+	width: 49%;
+	table-layout: fixed;
+}
+/*.myTables table tr{
+	display: inline-block;
+	width: 100%;
+}
+.myTables table th{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.myTables table th .more{
+	position: absolute;
+	right: 10px;
+}*/

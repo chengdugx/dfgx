@@ -1,0 +1,140 @@
+html{
+    font-size: 62.5%;
+}
+/*-------------------顶部logo-------------*/
+.comment_head{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    height: 4rem;
+}
+.comment_head .page_icon{
+    padding: 0;
+}
+.comment_head .page_icon button{
+    padding: 0.5rem 1rem;
+    border: transparent;
+}
+/*---------------以下为搜索栏-------------*/
+.search{
+    height: 3.2rem;
+    padding: 0;
+    text-align: right;
+}
+.search_user{
+    display: inline-block;
+    font-size: 1.4rem;
+    height: 2.6rem;
+    width: 9rem;
+}
+/*------------------以下为帖子栏目---------------*/
+article{
+    border: 0.1rem solid #dedede;
+    padding: 0 !important;
+}
+article .post_choose ul{
+    list-style-type: none;
+    padding: 0.5rem;
+    background-color: #d6d6d6;
+    margin: 0;
+}
+article .post_choose li{
+    display: inline-block;
+    margin: 0 0.3rem;
+    font-size: 1.4rem;
+}
+article .table_content{
+    padding: 0.1rem;
+    margin: 0;
+}
+article .table_content td{
+    display: inline-block;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+article .table_content th{
+    display: inline-block;
+    height: 3.5rem;
+    color: #000 !important;
+    text-align: center;
+}
+article .table_content .manage_state{
+    color: #3bb4f2;
+    text-align: center;
+    width: 5%;
+    overflow: hidden;
+}
+article .table_content .area{
+    text-align: center;
+    width: 5%;
+    overflow: hidden;
+}
+article .table_content .user{
+    width: 12%;
+    overflow: hidden;
+}
+article .table_content td .username{
+    text-align: center;
+    display: block;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+}
+article .table_content td .post_time{
+    text-align: center;
+    display: block;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+article .table_content .comment{
+    width: 55%;
+    white-space: pre-wrap;
+}
+article .table_content .content_index{
+    width: 13%;
+    text-align: center;
+}
+article .table_content .manage{
+    width: 10%;
+    text-align: center;
+}
+article .table_content .manage button{
+    display: block;
+    width: 6.3rem;
+}
+/*-------------以下为页码导航栏------------*/
+.comment_navs{
+    padding: 0;
+}
+.comment_navs .comment_nav{
+    text-align: right;
+    padding: 0;
+}
+.comment_nav ul{
+    list-style-type: none;
+}
+.comment_nav ul li{
+    padding: 0;
+    display: inline-block;
+}
+.comment_navs .comment_nav .page_num{
+    height: 1.9rem;
+    padding: 0;
+    margin: 0;
+}
+.comment_navs .comment_nav .page_num input{
+    display: inline-block;
+    height: 1.9rem;
+    width: 3rem;
+    color: #000;
+    padding: 0.1rem;
+    margin: 0;
+    vertical-align: baseline;
+    font-weight: bold;
+}
+.comment_navs .comment_nav .page_num span{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #3bb4f2;
+    padding: 1px 2px 0 0;
+    display: inline-block;
+}
