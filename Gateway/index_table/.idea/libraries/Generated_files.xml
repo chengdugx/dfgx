@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/js/html5shiv.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/respond.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/bootstrap.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/jquery-1.11.3.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/echarts.common.min.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/html5shiv.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/respond.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/bootstrap.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/jquery-1.11.3.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/echarts.common.min.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
